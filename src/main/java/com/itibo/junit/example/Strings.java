@@ -14,7 +14,7 @@ public class Strings {
 
         if(str == null) throw new NullPointerException();
 
-        else if(pos>str.length()) throw new IllegalArgumentException();
+        else if(pos>str.length()) throw new StringIndexOutOfBoundsException();
 
         else return str.substring(0,pos) + str.substring(pos+1);
     }

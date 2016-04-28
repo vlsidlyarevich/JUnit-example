@@ -12,14 +12,14 @@ public class StringsTest {
 
 
     @BeforeClass
-    public void setUp(){
+    public static void setUp(){
         System.out.println("\n********** SETTING UP **********");
         strings = new Strings();
         System.out.println("\n********** SETTING UP SUCCESSFUL **********");
     }
 
     @AfterClass
-    public void down(){
+    public static void down(){
         System.out.println("\n********** SETTING DOWN **********");
         strings = null;
         System.out.println("\n********** SETTING DOWN SUCCESSFUL **********");
@@ -37,7 +37,7 @@ public class StringsTest {
         assertEquals(strings.deleteChar("vlad",1),"vad");
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = StringIndexOutOfBoundsException.class)
     public void deleteCharIllegalArgTest(){
         System.out.println("\n********** DELETE CHAR ILLEGAL ARGS TEST **********");
         assertEquals(strings.deleteChar("vlad",4),"vad");
