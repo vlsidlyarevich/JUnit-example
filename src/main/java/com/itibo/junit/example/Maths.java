@@ -6,9 +6,6 @@ package com.itibo.junit.example;
 public class Maths {
 
 
-    public Maths() {
-    }
-
     public int sum(int a, int b){
 
         return a+b;
