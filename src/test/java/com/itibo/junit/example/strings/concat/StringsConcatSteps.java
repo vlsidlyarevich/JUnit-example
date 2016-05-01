@@ -18,7 +18,6 @@ public class StringsConcatSteps {
     private String result;
     private Strings strings = new Strings();
 
-
     @Given("^a string with value \"([^\"]*)\"$")
     public void aStringWithValue(String str1) {
         this.str1 = str1;
@@ -28,7 +27,6 @@ public class StringsConcatSteps {
     public void weConcatenateAnd(String str1, String str2) {
         result = strings.concat(str1, str2);
     }
-
 
     @Then("^the result must be \"([^\"]*)\"$")
     public void theResultMustBe(String result) {

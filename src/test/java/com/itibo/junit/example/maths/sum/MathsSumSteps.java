@@ -38,5 +38,4 @@ public class MathsSumSteps {
     public void verifyResult(final int result){
         Assert.assertThat(result,is(this.result));
     }
-
 }

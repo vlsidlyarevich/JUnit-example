@@ -8,21 +8,13 @@ import static org.junit.Assert.*;
  */
 public class StringsTest {
 
-    public static Strings strings;
+    private static Strings strings;
 
-
-    @BeforeClass
-    public static void setUp(){
+    @Before
+    public void setUp(){
         System.out.println("\n********** SETTING UP **********");
         strings = new Strings();
         System.out.println("\n********** SETTING UP SUCCESSFUL **********");
-    }
-
-    @AfterClass
-    public static void down(){
-        System.out.println("\n********** SETTING DOWN **********");
-        strings = null;
-        System.out.println("\n********** SETTING DOWN SUCCESSFUL **********");
     }
 
     @Test
@@ -47,5 +39,12 @@ public class StringsTest {
     public void deleteCharNullTest(){
         System.out.println("\n********** DELETE CHAR NULL POINTER TEST **********");
         assertEquals(strings.deleteChar(null,1),"vad");
+    }
+
+    @After
+    public void down(){
+        System.out.println("\n********** SETTING DOWN **********");
+        strings = null;
+        System.out.println("\n********** SETTING DOWN SUCCESSFUL **********");
     }
 }

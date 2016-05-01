@@ -19,7 +19,6 @@ public class StringsCharDeleteSteps {
     private String result;
     private Strings strings = new Strings();
 
-
     @Given("^a string with value \"([^\"]*)\"$")
     public void aStringWithValue(String str1) {
         this.str = str1;
