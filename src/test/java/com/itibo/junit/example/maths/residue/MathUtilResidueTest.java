@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/residue/")
+@CucumberOptions(
+        format = {"pretty", "html:target/html/"},
+        features = "src/test/java/com/itibo/junit/example/maths/residue/"
+)
 public class MathUtilResidueTest {
 }

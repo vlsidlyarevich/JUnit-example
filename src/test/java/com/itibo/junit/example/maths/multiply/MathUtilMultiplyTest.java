@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/multiply/")
+@CucumberOptions(
+        format = {"pretty", "html:target/html/"},
+        features = "src/test/java/com/itibo/junit/example/maths/multiply"
+)
 public class MathUtilMultiplyTest {
 }
