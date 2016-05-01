@@ -1,4 +1,4 @@
-package com.itibo.junit.example.maths.sum;
+package com.itibo.junit.example.maths.factorial;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 /**
  * Created by vlad on 01.05.16.
  */
+
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/sum/")
-public class MathsSumTest {
+@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/factorial/")
+public class MathUtilFactorialTest {
 }

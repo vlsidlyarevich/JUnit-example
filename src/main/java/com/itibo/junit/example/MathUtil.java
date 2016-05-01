@@ -3,7 +3,7 @@ package com.itibo.junit.example;
 /**
  * Created by vlad on 28.04.16.
  */
-public class Maths {
+public class MathUtil {
 
     public int sum(int a, int b){
         return a+b;

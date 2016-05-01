@@ -1,6 +1,6 @@
 package com.itibo.junit.example.maths.factorial;
 
-import com.itibo.junit.example.Maths;
+import com.itibo.junit.example.MathUtil;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -15,7 +15,7 @@ public class MathsFactorialSteps {
 
     private int a;
     private int result;
-    private Maths maths = new Maths();
+    private MathUtil mathUtil = new MathUtil();
 
 
     @Given("^a number with value (\\d+)$")
@@ -25,7 +25,7 @@ public class MathsFactorialSteps {
 
     @When("^we find factorial of the number (\\d+)$")
     public void multiply(int a){
-        result = maths.factorial(a);
+        result = mathUtil.factorial(a);
     }
 
     @Then("the result must be (\\d+)$")

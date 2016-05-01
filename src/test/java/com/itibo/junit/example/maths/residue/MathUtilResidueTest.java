@@ -1,4 +1,4 @@
-package com.itibo.junit.example.strings.delete;
+package com.itibo.junit.example.maths.residue;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/itibo/junit/example/strings/delete/")
-public class StringsCharDeleteTest {
+@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/residue/")
+public class MathUtilResidueTest {
 }

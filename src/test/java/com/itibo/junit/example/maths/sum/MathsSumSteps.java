@@ -1,6 +1,6 @@
 package com.itibo.junit.example.maths.sum;
 
-import com.itibo.junit.example.Maths;
+import com.itibo.junit.example.MathUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -16,7 +16,7 @@ public class MathsSumSteps {
 
     private int a,b;
     private int result;
-    private Maths maths = new Maths();
+    private MathUtil mathUtil = new MathUtil();
 
 
     @Given("^a number with value (\\d+)$")
@@ -31,7 +31,7 @@ public class MathsSumSteps {
 
     @When("^we sum two numbers: (\\d+) and (\\d+)$")
     public void sum(int a,int b){
-        result = maths.sum(a,b);
+        result = mathUtil.sum(a,b);
     }
 
     @Then("the result must be (\\d+)$")
