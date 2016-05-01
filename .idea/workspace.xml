@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1464c7cc-48e3-48c5-80bc-6039d0493f56" name="Default" comment="" />
+    <list default="true" id="1464c7cc-48e3-48c5-80bc-6039d0493f56" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/maths_factorial.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JUnit_example.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,26 +27,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MathsMultiplyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplyTest.java">
+      <file leaf-file-name="strings_concat.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/strings_concat.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="108">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringsConcatSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathsSumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum/MathsSumTest.java">
+      <file leaf-file-name="StringsConcatTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="10" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,6 +99,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/maths_multiply.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplySteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/MathsMultiplyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/MathsMultiplySteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/MathsMultiplyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/MathsMultiplySteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/MathsFactorialSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/maths_factorial.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/maths_residue.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/maths_factorial.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/strings_concat.feature" />
       </list>
     </option>
   </component>
@@ -205,6 +232,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="strings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="maths" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,10 +333,6 @@
               <option name="myItemId" value="maths" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multiply" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -278,91 +365,18 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.11.0/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum" />
       <recent name="$PROJECT_DIR$/src/test/recources/maths.sum" />
       <recent name="$PROJECT_DIR$/src/test/java/com/itibo/junit/example/features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathsMultiplyTest">
-    <configuration default="false" name="MathsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.itibo.junit.example.maths.sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JUnit_example" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itibo.junit.example" />
-      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.MathsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MathsTest.factorialNegativeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.itibo.junit.example.maths.sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JUnit_example" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itibo.junit.example" />
-      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.MathsTest" />
-      <option name="METHOD_NAME" value="factorialNegativeNumberTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.itibo.junit.example.maths.sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JUnit_example" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itibo.junit.example" />
-      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.StringsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringsConcatTest">
     <configuration default="false" name="MathsSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -401,6 +415,84 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.itibo.junit.example.maths.multiply" />
       <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.maths.multiply.MathsMultiplyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MathsResidueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itibo.junit.example.maths.residue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnit_example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.itibo.junit.example.maths.residue" />
+      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.maths.residue.MathsResidueTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MathsFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itibo.junit.example.maths.factorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnit_example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.itibo.junit.example.maths.factorial" />
+      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.maths.factorial.MathsFactorialTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringsConcatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itibo.junit.example.strings.concat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnit_example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.itibo.junit.example.strings.concat" />
+      <option name="MAIN_CLASS_NAME" value="com.itibo.junit.example.strings.concat.StringsConcatTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -891,19 +983,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MathsTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MathsTest.factorialNegativeNumberTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MathsSumTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MathsMultiplyTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MathsSumTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MathsMultiplyTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MathsResidueTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MathsFactorialTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringsConcatTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MathsMultiplyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MathsSumTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringsTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MathsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MathsTest.factorialNegativeNumberTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringsConcatTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MathsMultiplyTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MathsFactorialTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MathsResidueTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MathsSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -923,25 +1015,22 @@
       <option name="presentableId" value="Default" />
       <updated>1461864420515</updated>
       <workItem from="1461864427019" duration="4999000" />
-      <workItem from="1462084186049" duration="7721000" />
+      <workItem from="1462084186049" duration="9578000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathsSumTest - 2016.05.01 at 11h 23m 15s.xml">
-      <configuration name="MathsSumTest" configurationId="JUnit" />
+    <history-entry file="MathsFactorialTest - 2016.05.01 at 12h 05m 21s.xml">
+      <configuration name="MathsFactorialTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathsSumTest - 2016.05.01 at 11h 24m 18s.xml">
-      <configuration name="MathsSumTest" configurationId="JUnit" />
+    <history-entry file="MathsMultiplyTest - 2016.05.01 at 11h 52m 04s.xml">
+      <configuration name="MathsMultiplyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathsSumTest - 2016.05.01 at 11h 24m 44s.xml">
-      <configuration name="MathsSumTest" configurationId="JUnit" />
+    <history-entry file="MathsMultiplyTest - 2016.05.01 at 12h 05m 41s.xml">
+      <configuration name="MathsMultiplyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MathsSumTest - 2016.05.01 at 11h 25m 18s.xml">
-      <configuration name="MathsSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathsSumTest - 2016.05.01 at 11h 31m 24s.xml">
-      <configuration name="MathsSumTest" configurationId="JUnit" />
+    <history-entry file="MathsMultiplyTest_(1) - 2016.05.01 at 12h 01m 26s.xml">
+      <configuration name="MathsMultiplyTest (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MathsSumTest - 2016.05.01 at 11h 32m 47s.xml">
       <configuration name="MathsSumTest" configurationId="JUnit" />
@@ -958,9 +1047,12 @@
     <history-entry file="MathsSumTest - 2016.05.01 at 11h 38m 20s.xml">
       <configuration name="MathsSumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringsConcatTest - 2016.05.01 at 12h 22m 35s.xml">
+      <configuration name="StringsConcatTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12720000" />
+    <option name="totallyTimeSpent" value="14577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -975,8 +1067,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5910494" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6373457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -999,7 +1091,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1047,13 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itibo/junit/example/Maths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itibo/junit/example/Strings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1061,16 +1146,6 @@
           <folding>
             <element signature="e#148#149#0" expanded="false" />
             <element signature="e#180#181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/StringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1105,6 +1180,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum/maths_sum.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itibo/junit/example/Maths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/MathsResidueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/MathsResidueSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/MathsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/MathsFactorialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplySteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/residue/maths_residue.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/maths_multiply.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/maths_factorial.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1113,46 +1283,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum/MathsSumSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/StringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/maths_multiply.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/MathsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplySteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum/maths_sum.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="684">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1167,13 +1301,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/multiply/MathsMultiplyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/sum/MathsSumSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="396">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/maths/factorial/MathsFactorialSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/strings_concat.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itibo/junit/example/strings/concat/StringsConcatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
