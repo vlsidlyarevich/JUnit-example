@@ -1,6 +1,6 @@
 package com.itibo.junit.example.strings.delete;
 
-import com.itibo.junit.example.Strings;
+import com.itibo.junit.example.StringUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -17,7 +17,7 @@ public class StringsCharDeleteSteps {
     private String str;
     private int pos;
     private String result;
-    private Strings strings = new Strings();
+    private StringUtil stringUtil = new StringUtil();
 
     @Given("^a string with value \"([^\"]*)\"$")
     public void aStringWithValue(String str1) {
@@ -31,7 +31,7 @@ public class StringsCharDeleteSteps {
 
     @When("^we delete char with number (\\d+) from itiibo string$")
     public void weDeleteCharWithNumberFromString(int arg0) throws Throwable {
-        result = strings.deleteChar(str,pos);
+        result = stringUtil.deleteChar(str,pos);
     }
 
     @Then("^the result must be \"([^\"]*)\"$")

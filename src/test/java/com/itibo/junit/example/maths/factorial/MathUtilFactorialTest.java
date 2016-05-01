@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/com/itibo/junit/example/maths/factorial/")
-public class MathsFactorialTest {
+@CucumberOptions(
+        format = {"pretty", "html:target/html/"},
+        features = "src/test/java/com/itibo/junit/example/maths/factorial/"
+)
+public class MathUtilFactorialTest {
 }
