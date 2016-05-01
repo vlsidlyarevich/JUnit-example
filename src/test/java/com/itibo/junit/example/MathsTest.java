@@ -14,13 +14,6 @@ public class MathsTest {
         System.out.println("\n********** SETTING UP SUCCESSFUL **********");
     }
 
-    @After
-    public void down(){
-        System.out.println("\n********** SETTING DOWN **********");
-        maths = null;
-        System.out.println("\n********** SETTING DOWN SUCCESSFUL **********");
-    }
-
     @Test
     public void sumTest(){
         System.out.println("\n********** SUM TEST **********");
@@ -51,4 +44,10 @@ public class MathsTest {
         maths.factorial(-5);
     }
 
+    @After
+    public void down(){
+        System.out.println("\n********** SETTING DOWN **********");
+        maths = null;
+        System.out.println("\n********** SETTING DOWN SUCCESSFUL **********");
+    }
 }

@@ -32,5 +32,4 @@ public class MathsFactorialSteps {
     public void verifyResult(final int result){
         Assert.assertThat(result,is(this.result));
     }
-
 }
