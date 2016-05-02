@@ -35,3 +35,22 @@ ___
 [Cucumber](https://cucumber.io/) is a testing tool based on [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development). It means that testing via [cucumber](https://cucumber.io/) includes writing `.features` files, and implementing their steps in java classes.
 
 
+#####Getting started
+To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml) like this:
+```java
+  <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>${cucumber.version}</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>${cucumber.version}</version>
+    <scope>test</scope>
+  </dependency>
+```
+
+
+
