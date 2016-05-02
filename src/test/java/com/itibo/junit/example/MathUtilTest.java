@@ -31,7 +31,7 @@ public class MathUtilTest {
     @Test
     public void residueTest(){
         logger.info("********* RESIDUE TEST *********");
-        assertEquals(mathUtil.residue(2,4),3);
+        assertEquals(mathUtil.residue(2,4),2);
     }
 
     @Test
