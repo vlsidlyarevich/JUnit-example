@@ -37,7 +37,7 @@ ___
 
 #####Getting started
 To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml#L71-L82) like this:
-```java
+```xml
   <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-java</artifactId>
