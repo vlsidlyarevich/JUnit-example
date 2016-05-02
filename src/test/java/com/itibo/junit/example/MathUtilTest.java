@@ -19,25 +19,25 @@ public class MathUtilTest {
     @Test
     public void sumTest(){
         logger.info("********* SUM TEST *********");
-        assertEquals(mathUtil.sum(2,2),4);
+        assertEquals(4, mathUtil.sum(2, 2));
     }
 
     @Test
     public void multiplyTest(){
         logger.info("********* MULTIPLY TEST *********");
-        assertTrue(mathUtil.multiply(3,2) == 6);
+        assertEquals(6, mathUtil.multiply(3, 2));
     }
 
     @Test
     public void residueTest(){
         logger.info("********* RESIDUE TEST *********");
-        assertEquals(mathUtil.residue(2,4),2);
+        assertEquals(2, mathUtil.residue(2, 4));
     }
 
     @Test
     public void factorialTest(){
         logger.info("********* FACTORIAL TEST *********");
-        assertEquals(mathUtil.factorial(2),2);
+        assertEquals(2, mathUtil.factorial(2));
     }
 
     @Test(expected = IllegalArgumentException.class)

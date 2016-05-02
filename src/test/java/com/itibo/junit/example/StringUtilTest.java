@@ -22,25 +22,25 @@ public class StringUtilTest {
     @Test
     public void concatTest(){
         logger.info("********* CONCAT TEST *********");
-        assertEquals(stringUtil.concat("vl","ad"),"vlad");
+        assertEquals("vlad", stringUtil.concat("vl", "ad"));
     }
 
     @Test
     public void deleteCharTest(){
         logger.info("********* DELETE CHAR TEST *********");
-        assertEquals(stringUtil.deleteChar("vlad",1),"vad");
+        assertEquals("vad", stringUtil.deleteChar("vlad", 1));
     }
 
     @Test(expected = StringIndexOutOfBoundsException.class)
     public void deleteCharIllegalArgTest(){
         logger.info("********* DELETE CHAR ILLEGAL ARGS TEST *********");
-        assertEquals(stringUtil.deleteChar("vlad",4),"vad");
+        assertEquals("vad", stringUtil.deleteChar("vlad", 4));
     }
 
     @Test(expected = NullPointerException.class)
     public void deleteCharNullTest(){
         logger.info("********* DELETE CHAR NULL POINTER TEST *********");
-        assertEquals(stringUtil.deleteChar(null,1),"vad");
+        assertEquals("vad", stringUtil.deleteChar(null,1));
     }
 
     @AfterClass
