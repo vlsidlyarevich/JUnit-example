@@ -51,7 +51,7 @@ To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.
     <scope>test</scope>
   </dependency>
 ```
-Then implement some `.features` extension files like this [maths_factorial.feature](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/itibo/junit/example/maths/factorial/maths_factorial.feature):
+Then implement some `.features` extension files like this [maths_factorial.feature](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/maths/factorial/maths_factorial.feature):
 ```java
 Feature: Factorial of number
 
@@ -61,12 +61,12 @@ Feature: Factorial of number
     Then the result must be 6
 ```
 So, we have provided scenario for our test. Then we need to implement test runner java class like this:
-[MathsUtilFactorialTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/itibo/junit/example/maths/factorial/MathUtilFactorialTest.java)
+[MathsUtilFactorialTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/maths/factorial/MathUtilFactorialTest.java)
 ```java
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/maths/factorial/"
+        features = "src/test/java/com/github/junit/example/maths/factorial/"
 )
 public class MathUtilFactorialTest {
 }
