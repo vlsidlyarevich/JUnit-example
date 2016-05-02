@@ -1,6 +1,6 @@
-package com.itibo.junit.example.maths.residue;
+package com.github.junit.example.maths.residue;
 
-import com.itibo.junit.example.MathUtil;
+import com.github.junit.example.MathUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

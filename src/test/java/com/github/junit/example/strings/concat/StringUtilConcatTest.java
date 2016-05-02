@@ -1,4 +1,4 @@
-package com.itibo.junit.example.maths.multiply;
+package com.github.junit.example.strings.concat;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/maths/multiply"
+        features = "src/test/java/com/itibo/junit/example/strings/concat/"
 )
-public class MathUtilMultiplyTest {
+public class StringUtilConcatTest {
 }

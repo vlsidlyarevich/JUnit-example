@@ -1,4 +1,4 @@
-package com.itibo.junit.example.strings.concat;
+package com.github.junit.example.maths.residue;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/strings/concat/"
+        features = "src/test/java/com/github/junit/example/maths/residue/"
 )
-public class StringUtilConcatTest {
+public class MathUtilResidueTest {
 }

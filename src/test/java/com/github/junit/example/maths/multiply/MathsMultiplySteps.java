@@ -1,6 +1,6 @@
-package com.itibo.junit.example.maths.sum;
+package com.github.junit.example.maths.multiply;
 
-import com.itibo.junit.example.MathUtil;
+import com.github.junit.example.MathUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.is;
 /**
  * Created by vlad on 01.05.16.
  */
-public class MathsSumSteps {
+public class MathsMultiplySteps {
 
     private int a,b;
     private int result;
@@ -29,13 +29,14 @@ public class MathsSumSteps {
         this.b = b;
     }
 
-    @When("^we sum two numbers: (\\d+) and (\\d+)$")
-    public void sum(int a,int b){
-        result = mathUtil.sum(a,b);
+    @When("^we multiply two numbers: (\\d+) and (\\d+)$")
+    public void multiply(int a,int b){
+        result = mathUtil.multiply(a,b);
     }
 
     @Then("the result must be (\\d+)$")
     public void verifyResult(final int result){
         Assert.assertThat(result,is(this.result));
     }
+
 }

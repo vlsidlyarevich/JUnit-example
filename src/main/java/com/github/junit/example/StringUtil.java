@@ -1,4 +1,4 @@
-package com.itibo.junit.example;
+package com.github.junit.example;
 
 /**
  * Created by vlad on 28.04.16.

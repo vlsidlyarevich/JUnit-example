@@ -1,4 +1,4 @@
-package com.itibo.junit.example;
+package com.github.junit.example;
 
 import org.apache.log4j.Logger;
 import org.junit.*;

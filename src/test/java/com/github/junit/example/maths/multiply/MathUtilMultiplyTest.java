@@ -1,4 +1,4 @@
-package com.itibo.junit.example.strings.delete;
+package com.github.junit.example.maths.multiply;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/strings/delete/"
+        features = "src/test/java/com/github/junit/example/maths/multiply"
 )
-public class StringUtilCharDeleteTest {
+public class MathUtilMultiplyTest {
 }
