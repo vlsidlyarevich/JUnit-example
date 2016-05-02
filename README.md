@@ -1,14 +1,19 @@
-# JUnit-example
+# TDD and BDD usage example
 
 ###Build
 
-`mvn clean install`
+To build the project, type in your terminal `mvn clean install`
 
 ___
 
 ###Cucumber report
 
-`target/html`
+If you want a visual report in `.html format`, go to `target/html`.
+Then open `index.html` in your favourite browser.
+The output will look something like this:
+![index.html image]
+
+
 
 ___
 
