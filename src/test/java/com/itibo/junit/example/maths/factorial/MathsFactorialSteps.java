@@ -23,6 +23,10 @@ public class MathsFactorialSteps {
         this.a = a;
     }
 
+//    @Given("a number with value (\\d+)", (int a) -> {
+//        this.a = a;
+//    });
+
     @When("^we find factorial of the number (\\d+)$")
     public void multiply(int a){
         result = mathUtil.factorial(a);
