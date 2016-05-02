@@ -36,7 +36,7 @@ ___
 
 
 #####Getting started
-To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml) like this:
+To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml#L71-L82) like this:
 ```java
   <dependency>
     <groupId>info.cukes</groupId>
@@ -51,6 +51,7 @@ To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.
     <scope>test</scope>
   </dependency>
 ```
+Then implement some `.features` files like this:
 
 
 
