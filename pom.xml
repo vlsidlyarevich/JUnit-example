@@ -8,7 +8,7 @@
     <groupId>com.itibo</groupId>
     <artifactId>JUnit-example</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <name>JUnit example</name>
     <url>https://github.com/vlsidlyarevich/JUnit-example</url>
 
@@ -29,6 +29,25 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.5.7.201204190339</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
         <finalName>${project.artifactId}</finalName>
     </build>
@@ -37,6 +56,8 @@
         <junit.version>4.11</junit.version>
         <cucumber.version>1.2.4</cucumber.version>
         <log4j.version>1.2.17</log4j.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
