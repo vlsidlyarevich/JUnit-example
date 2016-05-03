@@ -63,13 +63,13 @@ Feature: Factorial of number
 So, we have provided scenario for our test. Then we need to implement test runner java class like this:
 [MathsUtilFactorialTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/maths/factorial/MathUtilFactorialTest.java)
 ```java
-@RunWith(Cucumber.class)
-@CucumberOptions(
-        format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/github/junit/example/maths/factorial/"
+ @RunWith(Cucumber.class)
+ @CucumberOptions(
+ format = {"pretty", "html:target/html/"},
+ features = "src/test/java/com/github/junit/example/maths/factorial/"
 )
-public class MathUtilFactorialTest {
-}
+ public class MathUtilFactorialTest {
+ }
 ```
 It is simply a test runner, all that we need is to provide `Cucumber.class` and some options like `format` and `features` for creation html based reports and designation of `.features` format files.
 The final step is to implement a java class with test steps. We described them in `features` format class. This class will contain some annotations like `@Given`,`@When` and `@Then`. 
@@ -77,9 +77,26 @@ Annotation `@Given` means that method should take some parameters for test.
 For example:
 [StringConcatSteps.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/strings/concat/StringsConcatSteps.java#L21-L24)
 ```java
-@Given("^a string with value \"([^\"]*)\"$")
-    public void aStringWithValue(String str1) {
-        this.str1 = str1;
-    }
+  @Given("^a string with value \"([^\"]*)\"$")
+  public void aStringWithValue(String str1) {
+      this.str1 = str1;
+  }
 ```
-
+The string in this annotation is linking with `.features` file strings, so it can take some values from `.features` file.
+Next annotation is `@When`. This annotation is using for making some conditions, in our example we using it in the following form: `@When` (our methods calling) `@Then` (expected result). The following code is the example of using `@When` annotation:
+[StringConcatSteps.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/strings/concat/StringsConcatSteps.java#L26-L29)
+```java
+  @When("^we concatenate \"([^\"]*)\" and \"([^\"]*)\"$")
+  public void weConcatenateAnd(String str1, String str2) {
+      result = stringUtil.concat(str1, str2);
+  }
+```
+And the final step is to make method with annotation `@Then`. It is our expected results, like this:
+[StringConcatSteps.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/strings/concat/StringsConcatSteps.java#L31-L34)
+```java
+  @Then("^the result must be \"([^\"]*)\"$")
+  public void theResultMustBe(String result) {
+    Assert.assertThat(result,is(this.result));
+  }
+```
+As we can see this tests are very easy to understand but they takes a little more time that TDD tests like JUnit.
