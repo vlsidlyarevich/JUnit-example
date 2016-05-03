@@ -100,3 +100,10 @@ And the final step is to make method with annotation `@Then`. It is our expected
   }
 ```
 As we can see this tests are very easy to understand but they takes a little more time that TDD tests like JUnit.
+
+___
+
+####JUnit
+[JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/)
+
+
