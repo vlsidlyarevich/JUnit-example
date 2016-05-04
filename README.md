@@ -104,6 +104,6 @@ As we can see this tests are very easy to understand but they takes a little mor
 ___
 
 ####JUnit
-[JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/)
+[JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/) because there is no need to write `.features` files. There is only one java class which coontains test methods 
 
 
