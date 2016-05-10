@@ -116,4 +116,13 @@ To get started add [JUnit](http://junit.org/junit4/) dependencies into your [pom
     <scope>test</scope>
   </dependency>
 ```
-
+After dependencies injection we are ready to write some tests. First thing is to implement some setting up. Use `@Before` annotation for setting up before every test or `@BeforeClass` for single setting up.
+[MathUtilTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/MathUtilTest.java#L12-L17)
+```java
+  @Before
+  public void setUp(){
+    logger.info("********* SETTING UP *********");
+    mathUtil = new MathUtil();
+    logger.info("********* SETTING UP SUCCESSFUL *********");
+  }
+```
