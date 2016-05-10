@@ -104,6 +104,16 @@ As we can see this tests are very easy to understand but they takes a little mor
 ___
 
 ####JUnit
-[JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/) because there is no need to write `.features` files. There is only one java class which coontains test methods 
+[JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/) because there is no need to write `.features` files. There is only one java class which coontains test methods. 
 
+#####Getting started
+To get started add [JUnit](http://junit.org/junit4/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml#L65-L70) like this:
+```xml
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>${junit.version}</version>
+    <scope>test</scope>
+  </dependency>
+```
 
