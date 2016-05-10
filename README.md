@@ -126,3 +126,22 @@ After dependencies injection we are ready to write some tests. First thing is to
     logger.info("********* SETTING UP SUCCESSFUL *********");
   }
 ```
+It is easy implementation for testing, we need to mark methods for testing with `@Test` annotation, and then use `AssertEquals` method from static import of `org.junit.Assert.*`. We just put expected value and method call. 
+[MathUtilTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/MathUtilTest.java#L19-L23)
+```java
+  @Test
+  public void multiplyTest(){
+    logger.info("********* MULTIPLY TEST *********");
+    assertEquals(6, mathUtil.multiply(3, 2));
+  }
+```
+After tests we can shut down by adding `@After` or `@AfterClass` annotations. They are working same as `@Before` and `@BeforeClass` but they are running after tests.
+[MathUtilTest.java](https://github.com/vlsidlyarevich/JUnit-example/blob/master/src/test/java/com/github/junit/example/MathUtilTest.java#L49-L55)
+```java
+  @After
+  public void down(){
+    logger.info("********* SETTING DOWN *********");
+    mathUtil = null;
+    logger.info("********* SETTING DOWN SUCCESSFUL *********");
+  }
+```
