@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/strings/concat/"
+        features = "src/test/java/com/github/junit/example/strings/concat/"
 )
 public class StringUtilConcatTest {
 }
