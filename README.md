@@ -13,7 +13,7 @@ ___
 If you want a visual report in `.html format`, go to `target/html`.
 Then open `index.html` in your favourite browser.
 The output will look something like this:
-![cucumber output image]
+![screenshot from 2016-05-11 03-41-26](https://cloud.githubusercontent.com/assets/9396988/15166822/5cc30eb6-172b-11e6-9d46-7b1c7c4a3b42.png)
 
 ___
 
@@ -22,11 +22,9 @@ ___
 If you want a visual report about test coverage of project, go to `target/site`, and open 
 `index.html` in your favourite browser.
 The example of the output:
-![jacoco output image]
+![screenshot from 2016-05-11 03-42-06](https://cloud.githubusercontent.com/assets/9396988/15166824/63f5de66-172b-11e6-92fe-2eed66668fca.png)
 
 ___
-
-
 
 
 ##Description
