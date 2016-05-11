@@ -5,22 +5,22 @@ package com.github.junit.example;
  */
 public class MathUtil {
 
-    public int sum(int a, int b){
-        return a+b;
+    public int sum(int a, int b) {
+        return a + b;
     }
 
-    public int multiply(int a, int b){
-        return a*b;
+    public int multiply(int a, int b) {
+        return a * b;
     }
 
-    public int residue(int a, int b){
-        return Math.abs(a-b);
+    public int residue(int a, int b) {
+        return Math.abs(a - b);
     }
 
-    public int factorial(int number){
-        if (number < 0)
-            throw new IllegalArgumentException();
-
+    public int factorial(int number) {
+        if (number < 0) {
+            throw new RuntimeException("illegal arguments");
+        }
         int result = 1;
 
         if (number > 1) {
@@ -31,3 +31,4 @@ public class MathUtil {
         return result;
     }
 }
+

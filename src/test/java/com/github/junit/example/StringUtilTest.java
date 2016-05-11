@@ -8,45 +8,47 @@ import static org.junit.Assert.*;
  * Created by vlad on 28.04.16.
  */
 public class StringUtilTest {
-    private final static Logger logger = Logger.getLogger(StringUtilTest.class);
+    private final static Logger LOGGER = Logger.getLogger(StringUtilTest.class);
 
     private static StringUtil stringUtil;
 
     @BeforeClass
     public static void setUp(){
-        logger.info("********* SETTING UP *********");
+        LOGGER.info("********* SETTING UP *********");
         stringUtil = new StringUtil();
-        logger.info("********* SETTING UP SUCCESSFUL *********");
+        LOGGER.info("********* SETTING UP SUCCESSFUL *********");
+    }
+
+    @AfterClass
+    public static void down(){
+        LOGGER.info("********* SETTING DOWN *********");
+        stringUtil = null;
+        LOGGER.info("********* SETTING DOWN SUCCESSFUL *********");
     }
 
     @Test
     public void concatTest(){
-        logger.info("********* CONCAT TEST *********");
+        LOGGER.info("********* CONCAT TEST *********");
         assertEquals("vlad", stringUtil.concat("vl", "ad"));
     }
 
     @Test
     public void deleteCharTest(){
-        logger.info("********* DELETE CHAR TEST *********");
+        LOGGER.info("********* DELETE CHAR TEST *********");
         assertEquals("vad", stringUtil.deleteChar("vlad", 1));
     }
 
-    @Test(expected = StringIndexOutOfBoundsException.class)
+    @Test(expected = RuntimeException.class)
     public void deleteCharIllegalArgTest(){
-        logger.info("********* DELETE CHAR ILLEGAL ARGS TEST *********");
-        assertEquals("vad", stringUtil.deleteChar("vlad", 4));
+        LOGGER.info("********* DELETE CHAR ILLEGAL ARGS TEST *********");
+        stringUtil.deleteChar("vlad", 4);
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = RuntimeException.class)
     public void deleteCharNullTest(){
-        logger.info("********* DELETE CHAR NULL POINTER TEST *********");
-        assertEquals("vad", stringUtil.deleteChar(null,1));
+        LOGGER.info("********* DELETE CHAR NULL POINTER TEST *********");
+        stringUtil.deleteChar(null,1);
     }
 
-    @AfterClass
-    public static void down(){
-        logger.info("********* SETTING DOWN *********");
-        stringUtil = null;
-        logger.info("********* SETTING DOWN SUCCESSFUL *********");
-    }
 }
+

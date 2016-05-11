@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/strings/delete/"
+        features = "src/test/java/com/github/junit/example/strings/delete/"
 )
 public class StringUtilCharDeleteTest {
 }

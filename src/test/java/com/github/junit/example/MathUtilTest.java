@@ -5,51 +5,53 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class MathUtilTest {
-    private final static Logger logger = Logger.getLogger(MathUtilTest.class);
+    private final static Logger LOGGER = Logger.getLogger(MathUtilTest.class);
 
     private MathUtil mathUtil;
 
     @Before
     public void setUp(){
-        logger.info("********* SETTING UP *********");
+        LOGGER.info("********* SETTING UP *********");
         mathUtil = new MathUtil();
-        logger.info("********* SETTING UP SUCCESSFUL *********");
+        LOGGER.info("********* SETTING UP SUCCESSFUL *********");
+    }
+
+    @After
+    public void down(){
+        LOGGER.info("********* SETTING DOWN *********");
+        mathUtil = null;
+        LOGGER.info("********* SETTING DOWN SUCCESSFUL *********");
     }
 
     @Test
     public void sumTest(){
-        logger.info("********* SUM TEST *********");
+        LOGGER.info("********* SUM TEST *********");
         assertEquals(4, mathUtil.sum(2, 2));
     }
 
     @Test
     public void multiplyTest(){
-        logger.info("********* MULTIPLY TEST *********");
+        LOGGER.info("********* MULTIPLY TEST *********");
         assertEquals(6, mathUtil.multiply(3, 2));
     }
 
     @Test
     public void residueTest(){
-        logger.info("********* RESIDUE TEST *********");
+        LOGGER.info("********* RESIDUE TEST *********");
         assertEquals(2, mathUtil.residue(2, 4));
     }
 
     @Test
     public void factorialTest(){
-        logger.info("********* FACTORIAL TEST *********");
+        LOGGER.info("********* FACTORIAL TEST *********");
         assertEquals(2, mathUtil.factorial(2));
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = RuntimeException.class)
     public void factorialNegativeNumberTest(){
-        logger.info("********* FACTORIAL WITH NEGATIVE TEST *********");
+        LOGGER.info("********* FACTORIAL WITH NEGATIVE TEST *********");
         mathUtil.factorial(-5);
     }
 
-    @After
-    public void down(){
-        logger.info("********* SETTING DOWN *********");
-        mathUtil = null;
-        logger.info("********* SETTING DOWN SUCCESSFUL *********");
-    }
 }
+

@@ -5,8 +5,8 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.itibo</groupId>
-    <artifactId>JUnit-example</artifactId>
+    <groupId>com.github</groupId>
+    <artifactId>junit-example</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>JUnit example</name>
@@ -14,13 +14,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -79,6 +72,11 @@
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
         </dependency>
 
         <!-- Logging -->
