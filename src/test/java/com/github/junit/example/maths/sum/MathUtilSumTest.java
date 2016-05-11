@@ -1,4 +1,4 @@
-package com.itibo.junit.example.maths.sum;
+package com.github.junit.example.maths.sum;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/html/"},
-        features = "src/test/java/com/itibo/junit/example/maths/sum/"
+        features = "src/test/java/com/github/junit/example/maths/sum/"
 )
 public class MathUtilSumTest {
 }

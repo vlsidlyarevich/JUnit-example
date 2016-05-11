@@ -1,6 +1,6 @@
-package com.itibo.junit.example.strings.concat;
+package com.github.junit.example.strings.concat;
 
-import com.itibo.junit.example.StringUtil;
+import com.github.junit.example.StringUtil;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

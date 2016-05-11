@@ -1,6 +1,6 @@
-package com.itibo.junit.example.maths.factorial;
+package com.github.junit.example.maths.factorial;
 
-import com.itibo.junit.example.MathUtil;
+import com.github.junit.example.MathUtil;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
