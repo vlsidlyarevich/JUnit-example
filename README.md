@@ -1,14 +1,14 @@
 # TDD and BDD usage example
 
-##Building
+## Building
 
-####Build
+#### Build
 
 To build the project, type in your terminal `mvn clean install`
 
 ___
 
-####Cucumber report
+#### Cucumber report
 
 If you want a visual report in `.html format`, go to `target/html`.
 Then open `index.html` in your favourite browser.
@@ -17,7 +17,7 @@ The output will look something like this:
 
 ___
 
-####JaCoCo report
+#### JaCoCo report
 
 If you want a visual report about test coverage of project, go to `target/site`, and open 
 `index.html` in your favourite browser.
@@ -27,13 +27,13 @@ The example of the output:
 ___
 
 
-##Description
+## Description
 
-####Cucumber
+#### Cucumber
 [Cucumber](https://cucumber.io/) is a testing tool based on [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development). It means that testing via [cucumber](https://cucumber.io/) includes writing `.features` files, and implementing their steps in java classes.
 
 
-#####Getting started
+##### Getting started
 To get started add [cucumber](https://cucumber.io/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml#L71-L82) like this:
 ```xml
   <dependency>
@@ -101,10 +101,10 @@ As we can see this tests are very easy to understand but they takes a little mor
 
 ___
 
-####JUnit
+#### JUnit
 [JUnit](http://junit.org/junit4/) is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks. It is an adept of  [TDD](https://en.wikipedia.org/wiki/Test-driven_development). It is easier to implement than [Cucumber](https://cucumber.io/) because there is no need to write `.features` files. There is only one java class which coontains test methods. 
 
-#####Getting started
+##### Getting started
 To get started add [JUnit](http://junit.org/junit4/) dependencies into your [pom.xml](https://github.com/vlsidlyarevich/JUnit-example/blob/master/pom.xml#L65-L70) like this:
 ```xml
   <dependency>
